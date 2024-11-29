@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.At;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 
-//@DefaultUrl("https://www.banistmo.com/wps/portal/banistmo/acerca-de") //Cuando inicie deberia estar en esa url
+@DefaultUrl("https://www.banistmo.com/wps/portal/banistmo/acerca-de")
 public class Sostenibilidad extends PageObject {
 
     @FindBy(xpath = "//a[text()='Información Corporativa']")
