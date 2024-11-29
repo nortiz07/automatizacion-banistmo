@@ -4,6 +4,7 @@ import net.thucydides.core.annotations.Step;
 import org.example.pages.interacciones.AcercadeInteraction;
 import org.example.pages.mapeos.AcercaDe;
 import org.fluentlenium.core.annotation.Page;
+import org.junit.AfterClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -39,5 +40,6 @@ public class AcercadeSteps {
         assertThat(mensajeError, acercadeInteraction.getTitleAcercade(), is(equalTo("Información Corporativa")));
         LOGGER.info(acercadeInteraction.getTitleAcercade());
     }
+
 
 }

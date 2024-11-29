@@ -25,8 +25,8 @@ public class SostenibilidadSteps {
 
     @Step("el usuario da clic en corporativa")
     public void clicCorporativa(){
-        //sostenibilidad.open();
-        //sostenibilidad.botonAceptar.waitUntilVisible().click();
+        sostenibilidad.open();
+        sostenibilidad.botonAceptar.waitUntilVisible().click();
         sostenibilidad.titleInformacion.waitUntilVisible().click();
         LOGGER.info("ABRE SOSTENIBILIDAD");
     }
